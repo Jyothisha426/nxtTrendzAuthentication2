@@ -1,0 +1,18 @@
+.products-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.products-img {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-img {
+    height: 150px;
+    width: 150px;
+  }
+}
